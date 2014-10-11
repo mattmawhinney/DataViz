@@ -31,8 +31,8 @@ chart = function(){
 
     d3.csv("data.csv", function(error, data) {
         data.forEach(function(d) {
+            console.log(d);
             d.frequency = +d.frequency;
-            console.log('Inside data,', d.frequency );
         });
 
         x.domain(data.map(function(d) { return d.letter; }));
