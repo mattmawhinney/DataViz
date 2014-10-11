@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+  <head>
+    <meta charset="utf-8">
+    <title>Saying Hello!</title>
+
+    <style type="text/css">
+        button {
+          font-size: 36px;
+        }
+
+        p {
+            font-size: 24px;
+            color: orange;
+        }
+    </style>
+
+  </head>
+  <body>
+    <button>Greet Hummanity</button>
+    <div class="greetings">
+      <p>Hello World!</p>
+      <p>Hola Mundo!</p>
+      <p>привет мир!</p>
+      <p>!مرحبا العالم</p>
+    </div>
+
+    <script type="text/javascript" src="jquery-min.js"></script>
+
+    <script type="text/javascript">
+
+      $( "button" ).click(function() {
+        console.log("I've been clicked")
+        $(".greetings").append("<p>हैलो वर्ल्ड</p>" );
+      });
+    </script>
+
+  </body>
+</html>
