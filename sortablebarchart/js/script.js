@@ -31,7 +31,6 @@ chart = function(){
 
     d3.csv("data.csv", function(error, data) {
         data.forEach(function(d) {
-            console.log(d);
             d.frequency = +d.frequency;
         });
 
