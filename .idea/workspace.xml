@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d75d12d8-2216-41c8-b6af-d7ee8912b895" name="Default" comment="">
+<<<<<<< HEAD
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data.csv" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data.json" />
+=======
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data.csv" afterPath="$PROJECT_DIR$/data.csv" />
+>>>>>>> 637f98d3e540ff4a530601af3d0816c0dbfa8156
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/script.js" afterPath="$PROJECT_DIR$/js/script.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -31,7 +35,11 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state line="51" column="7" selection-start="779" selection-end="779" vertical-scroll-proportion="-19.384615" vertical-offset="363" max-vertical-offset="969">
+=======
+            <state line="32" column="20" selection-start="562" selection-end="562" vertical-scroll-proportion="-6.9615383" vertical-offset="363" max-vertical-offset="969">
+>>>>>>> 637f98d3e540ff4a530601af3d0816c0dbfa8156
               <folding />
             </state>
           </provider>
@@ -41,6 +49,7 @@
         <entry file="file://$PROJECT_DIR$/data.tsv">
           <provider selected="true" editor-type-id="text-editor">
             <state line="10" column="10" selection-start="0" selection-end="250" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
+<<<<<<< HEAD
               <folding />
             </state>
           </provider>
@@ -50,15 +59,30 @@
         <entry file="file://$PROJECT_DIR$/data.csv">
           <provider selected="true" editor-type-id="text-editor">
             <state line="26" column="3" selection-start="245" selection-end="245" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
+=======
+>>>>>>> 637f98d3e540ff4a530601af3d0816c0dbfa8156
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="script.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="data.csv" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/data.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="26" column="3" selection-start="245" selection-end="245" vertical-scroll-proportion="0.9081081" vertical-offset="106" max-vertical-offset="544">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="script.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state line="31" column="45" selection-start="875" selection-end="875" vertical-scroll-proportion="0.7039007" vertical-offset="130" max-vertical-offset="1734">
+=======
+            <state line="33" column="27" selection-start="939" selection-end="939" vertical-scroll-proportion="0.0" vertical-offset="419" max-vertical-offset="1734">
+>>>>>>> 637f98d3e540ff4a530601af3d0816c0dbfa8156
               <folding />
             </state>
           </provider>
@@ -90,8 +114,12 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/data.json" />
         <option value="$PROJECT_DIR$/data.tsv" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/data.csv" />
+=======
+>>>>>>> 637f98d3e540ff4a530601af3d0816c0dbfa8156
         <option value="$PROJECT_DIR$/js/script.js" />
+        <option value="$PROJECT_DIR$/data.csv" />
       </list>
     </option>
   </component>
@@ -299,15 +327,22 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/data.tsv">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="10" selection-start="0" selection-end="250" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
+=======
+    <entry file="file://$PROJECT_DIR$/data.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="1" selection-start="1" selection-end="1" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="119">
+>>>>>>> 637f98d3e540ff4a530601af3d0816c0dbfa8156
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state line="51" column="7" selection-start="779" selection-end="779" vertical-scroll-proportion="-19.384615" vertical-offset="363" max-vertical-offset="969">
           <folding />
         </state>
@@ -323,13 +358,34 @@
     <entry file="file://$PROJECT_DIR$/data.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state line="26" column="3" selection-start="245" selection-end="245" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
+=======
+        <state line="32" column="20" selection-start="562" selection-end="562" vertical-scroll-proportion="-6.9615383" vertical-offset="363" max-vertical-offset="969">
+>>>>>>> 637f98d3e540ff4a530601af3d0816c0dbfa8156
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state line="31" column="45" selection-start="875" selection-end="875" vertical-scroll-proportion="0.7039007" vertical-offset="130" max-vertical-offset="1734">
+=======
+        <state line="33" column="27" selection-start="939" selection-end="939" vertical-scroll-proportion="0.0" vertical-offset="419" max-vertical-offset="1734">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data.tsv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="10" selection-start="0" selection-end="250" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="3" selection-start="245" selection-end="245" vertical-scroll-proportion="0.9081081" vertical-offset="106" max-vertical-offset="544">
+>>>>>>> 637f98d3e540ff4a530601af3d0816c0dbfa8156
           <folding />
         </state>
       </provider>
