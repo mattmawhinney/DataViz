@@ -6,3 +6,9 @@ button {
       font-size: 24px;
       color: orange;
   }
+
+ .smiley {
+      fill: yellow;
+      stroke: orange;
+      stroke-width: 5;
+   }
