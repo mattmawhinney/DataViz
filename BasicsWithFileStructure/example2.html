@@ -3,19 +3,11 @@
     <meta charset="utf-8">
     <title>Saying Hello!</title>
 
-    <style type="text/css">
-        button {
-          font-size: 36px;
-        }
-
-        p {
-            font-size: 24px;
-            color: orange;
-        }
-    </style>
+    <link rel="stylesheet" type="text/css" href="style.css">
 
   </head>
   <body>
+
     <button>Greet Hummanity</button>
     <div class="greetings">
       <p>Hello World!</p>
@@ -25,14 +17,7 @@
     </div>
 
     <script type="text/javascript" src="jquery-1.11.1.js"></script>
-
-    <script type="text/javascript">
-
-      $( "button" ).click(function() {
-        console.log("I've been clicked")
-        $(".greetings").append("<p>हैलो वर्ल्ड</p>" );
-      });
-    </script>
+    <script src="script.js"></script>
 
   </body>
 </html>
