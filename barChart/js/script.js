@@ -2,13 +2,23 @@
 //                 11, 12, 15, 20, 18, 17, 16, 18, 23, 25 ];
 
 
-var dataset = [ 5, 10, 13, 19, 21];
+// var dataset = [ 5, 10, 13, 19, 21];
 
 
 // var dataset = [ 5, 10, 13, 19, 21, 25, 22, 18, 15, 13,
 //                 11, 12, 15, 20, 18, 17, 16, 18, 23, 25,
 //                 5, 10, 13, 19, 21, 25, 22, 18, 15, 13,
 //                 11, 12, 15, 20, 18, 17, 16, 18, 23, 25 ];
+
+
+
+
+var datasetLength = Math.round(Math.random() * 50)
+var dataset = [];                        //Initialize empty array
+for (var i = 0; i < datasetLength; i++) {           //Loop 25 times
+    var newNumber =  Math.round(Math.random() * 30);  //New random number (0-30)
+    dataset.push(newNumber);             //Add new number to array
+}
 
 // d3.select("body").selectAll("div")
 //     .data(dataset)
@@ -25,7 +35,7 @@ var dataset = [ 5, 10, 13, 19, 21];
 
 //Width and height
 var w = 500;
-var h = 100;
+var h = 150;
 var barPadding = 1;  // <-- New!
 
 
@@ -250,3 +260,8 @@ svg.selectAll("rect")
       .attr("font-size", "11px")
       .attr("fill", "white")
       .attr("text-anchor", "middle")
+
+
+setTimeout(function(){location.reload()}, 1000)
+  
+

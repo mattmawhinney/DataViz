@@ -7,8 +7,16 @@ button {
       color: orange;
   }
 
- .smiley {
-      fill: yellow;
-      stroke: orange;
-      stroke-width: 5;
-   }
+  .greetings {
+    border: 2px dotted black;
+  }
+
+  #russian {
+    font-weight: bold;
+    color: red;
+  }
+  .smiley {
+    fill: yellow;
+    stroke: orange;
+    stroke-width: 5;
+ }

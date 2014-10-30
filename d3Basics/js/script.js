@@ -1,33 +1,36 @@
+var body = d3.select("body");
+var p = body.append("p");
+p.text("New paragraph!");
+
 // d3.select("body").append("p").text("New paragraph!");
 
 // d3.select("body")
 //   .append("p")
 //   .text("New paragraph!");
 
+// var dataset = [ 5, 10, 15, 20, 25 ];
 
-// var body = d3.select("body");
-// var p = body.append("p");
-// p.text("New paragraph!");
-var dataset = [ 5, 10, 15, 20, 25 ];
-
-// d3.select("body").selectAll("p")
+// d3.select("body")
+//     .selectAll("p")
 //     .data(dataset)
 //     .enter()
 //     .append("p")
 //     .text("New paragraph!");
 
+//console.log(d3.selectAll("p"))
 
-// d3.select("body").selectAll("p")
+// d3.select("body")
+//   .selectAll("p")
 //   .data(dataset)
 //   .enter()
 //   .append("p")
 //   .text(function(d) { return d; });
 
-d3.select("body").selectAll("p")
-  .data(dataset)
-  .enter()
-  .append("p")
-  .text(function(d) {return "I can count up to " + d; });
+// d3.select("body").selectAll("p")
+//   .data(dataset)
+//   .enter()
+//   .append("p")
+//   .text(function(d) {return "I can count up to " + d; });
 
 
 // d3.select("body").selectAll("p")
@@ -50,7 +53,7 @@ d3.select("body").selectAll("p")
 //     }
 // });
 
-//console.log(d3.selectAll("p"))
+
 
 // d3.select("body") — Finds the body in the DOM and hands a reference off to the next step in the chain.
 
