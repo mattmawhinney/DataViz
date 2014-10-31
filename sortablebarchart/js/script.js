@@ -29,7 +29,7 @@ chart = function(){
         .append("g")
         .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-    d3.csv("data.csv", function(error, data) {
+    d3.json("https://arcane-anchorage-4736.herokuapp.com/", function(error, data) {
         data.forEach(function(d) {
             d.frequency = +d.frequency;
         });
