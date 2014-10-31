@@ -1,14 +1,14 @@
-var body = d3.select("body");
-var p = body.append("p");
-p.text("New paragraph!");
+// var body = d3.select("body");
+// var p = body.append("p");
+// p.text("New paragraph!");
 
-// d3.select("body").append("p").text("New paragraph!");
+// d3.select("body").append("p").text("Second paragraph!");
 
 // d3.select("body")
 //   .append("p")
-//   .text("New paragraph!");
+//   .text("Third Paragraphs!");
 
-// var dataset = [ 5, 10, 15, 20, 25 ];
+//var dataset = [ 5, 10, 15, 20, 25, 30 ];
 
 // d3.select("body")
 //     .selectAll("p")

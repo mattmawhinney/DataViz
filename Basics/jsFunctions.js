@@ -51,7 +51,7 @@ myArray.pop();
 myArray.sort();
 
 
-//objects
+//basic objects
 
 var myObject = {
   name: "Matt",
@@ -60,14 +60,7 @@ var myObject = {
 }
 
 myObject.favoriteFoods
-
-var myJSONObj = {
-  "name": "Matt",
-  "age": 30,
-  "favoriteFoods": ["pizza", "pasta", "paella"]
-}
-
-myObject.favoriteFoods
+myObject.age
 
 //write named function to log name
 function sayHello(name) {
@@ -100,3 +93,9 @@ function logAllElemenets(array) {
 }
 
 logAllElemenets(myArray);
+
+
+// window.document.getElementById("hplogo").onclick = function(){alert('hello')}
+// jQuery
+
+
