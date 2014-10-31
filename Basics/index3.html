@@ -4,6 +4,7 @@
     <title>Saying Hello!</title>
 
     <style type="text/css">
+    /*elements have attributesm ( ids/classes) that tell the browser how to treat it's content */
         button {
           font-size: 36px;
         }
@@ -21,6 +22,7 @@
           font-weight: bold;
           color: red;
         }
+
         .smiley {
           fill: yellow;
           stroke: orange;
@@ -29,7 +31,7 @@
     </style>
 
   </head>
-  <body>
+ <body>
     <button>Greet Humanity</button>
     <div class="greetings">
       <p>Hello World!</p>
@@ -38,7 +40,13 @@
       <p>!مرحبا العالم</p> 
     </div>
 
-<!--     <div class="svg-one">
+
+       <p>Hello World!</p>
+      <p>Hola Mundo!</p>
+      <p id="russian">привет мир!</p>
+      <p>!مرحبا العالم</p> 
+
+    <div class="svg-one">
 
       <svg width="120" height="100">
        <rect x="0" y="0" width="25" height="100"/>
@@ -47,10 +55,12 @@
        <rect x="90" y="60" width="25" height="40"/>
       </svg>
 
-    </div> -->
+    </div>
 
     <div class="svg-two">
       <svg width="410" height="410">
+
+           
 
        <circle cx="205" cy="205" r="200" class="smiley"/>
         <circle cx="125" cy="120" r="40"/>
@@ -65,9 +75,11 @@
     <script type="text/javascript" src="jquery-1.11.1.js"></script>
 
     <script type="text/javascript">
+      // window.document.getElementsByTagName("button").click(function() {
+      //   console.log("I've been clicked")
+      // })
 
       // $( "button" ).click(function() {
-      //   console.log("I've been clicked")
       //   $(".greetings").append("<p>हैलो वर्ल्ड</p>" );
       // });
     </script>
