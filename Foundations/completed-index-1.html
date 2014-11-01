@@ -14,7 +14,7 @@
             color: orange;
         }
 
-        .greetings {
+        .latin-greetings {
           border: 2px dotted black;
         }
 
@@ -33,45 +33,37 @@
   </head>
  <body>
     <button>Greet Humanity</button>
-    <div class="greetings">
+    <div class="latin-greetings">
       <p>Hello World!</p>
-      <p>Hola Mundo!</p>
-      <p id="russian">привет мир!</p>
-      <p>!مرحبا العالم</p> 
+      <p>¡Hola Mundo!</p>
+      <p>Hallo Welt!</p>
     </div>
 
 
-       <p>Hello World!</p>
-      <p>Hola Mundo!</p>
+    <div class="non-latin-greetings">
       <p id="russian">привет мир!</p>
-      <p>!مرحبا العالم</p> 
+      <p>!مرحبا العالم</p>
+    </div>
 
     <div class="svg-one">
-
-      <svg width="120" height="100">
-       <rect x="0" y="0" width="25" height="100"/>
-       <rect x="30" y="20" width="25" height="80"/>
-       <rect x="60" y="40" width="25" height="60"/>
-       <rect x="90" y="60" width="25" height="40"/>
-      </svg>
+    
+    <svg width="400" height="400">
+      <rect x="0" y="0" width="50" height="400" />
+      <rect x="60" y="50" width="50" height="350"/>
+      <rect x="120" y="100" width="50" height="300"/>
+      <rect x="180" y="150" width="50" height="250"/>
+    </svg>
 
     </div>
 
     <div class="svg-two">
       <svg width="410" height="410">
-
-           
-
        <circle cx="205" cy="205" r="200" class="smiley"/>
         <circle cx="125" cy="120" r="40"/>
         <circle cx="275" cy="120" r="40"/>
         <ellipse cx="200" cy="300" rx="100" ry="25"/>
       </svg>
     </div>
-
-
-
-
     <script type="text/javascript" src="jquery-1.11.1.js"></script>
 
     <script type="text/javascript">
@@ -79,9 +71,9 @@
       //   console.log("I've been clicked")
       // })
 
-      // $( "button" ).click(function() {
-      //   $(".greetings").append("<p>हैलो वर्ल्ड</p>" );
-      // });
+      $( "button" ).click(function() {
+        $(".non-latin-greetings").append("<p>हैलो वर्ल्ड</p>" );
+      });
     </script>
 
   </body>
